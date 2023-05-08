@@ -17,5 +17,7 @@ The command below will run the pipeline on the `papers` directory, which contain
 $ poetry run python main.py --pdf_directory=papers
 ```
 
+Note that the LanceDB database is included in this repo, so the creation and storage of embeddings within the ingestion code will be skipped unless you delete the `.lancedb` directory. This is included to make it easier to run the code without having to wait for the embeddings to be generated.
+
 ## Example
 [/static/example.png](/static/example.png)
