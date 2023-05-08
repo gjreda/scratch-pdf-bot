@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gpt-pdf-bot"
+version = "0.1.0"
+description = ""
+authors = ["Greg Reda <gjreda+github@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gpt_pdf_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.6"
+pypdf = "^3.8.1"
+lancedb = "^0.1.2"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
