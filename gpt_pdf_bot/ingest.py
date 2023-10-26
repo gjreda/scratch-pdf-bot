@@ -72,7 +72,6 @@ class PdfIngestionPipeline:
         # check if table exists
         # TODO: this is a naive way to not recompute embeddings for the same pdfs
         if self.pdf_directory.name in self.db.table_names():
-            print(f"Table '{self.pdf_directory.name}' already exists")
             return self.db[self.pdf_directory.name]
 
         texts = [chunk.text for chunk in chunks]

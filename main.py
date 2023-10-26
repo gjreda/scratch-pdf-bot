@@ -13,9 +13,11 @@ def main(pdf_directory: str):
     bot.run()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     parser = ArgumentParser()
-    parser.add_argument('--pdf_directory', help='Path to directory containing PDFs to ingest')
+    parser.add_argument(
+        "--pdf_directory", help="Path to directory containing PDFs to ingest"
+    )
     args = parser.parse_args()
 
     path = Path(args.pdf_directory)
