@@ -24,4 +24,6 @@ Note that the LanceDB database is included in this repo, so the creation and sto
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r4LAQbu3sd0?si=-U-_RiCC40hG5NJP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+I wrote a brief blog post and recorded a demo video of this project [here](https://gregreda.com/2023/10/26/prototyping-a-pdf-chatbot-from-scratch/).
+
+![Demo](https://www.youtube.com/watch?v=r4LAQbu3sd0&ab_channel=GregReda)
